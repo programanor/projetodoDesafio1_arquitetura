@@ -1,0 +1,84 @@
+
+/* STYLE CABECALHO I */
+
+#cabecalhoI{
+    height:175px;
+    background-color:#303030;
+    color: white;
+    padding:95px 0px 0px 45px;
+
+    /* STYLE CABECALHO II */
+}
+#cabecalhoII{
+    display:grid;
+    grid-auto-flow:column;
+    columns:auto;
+}
+.textLetr_II{
+    margin-top:60px;
+    margin-left:92px;
+    
+}
+strong{
+    font-size:40px;
+}
+
+/* STYLE CABECALHO III */
+
+
+#cabecalhoIII{
+    display:grid;
+    grid-auto-flow:column;
+    columns:auto;
+}
+
+#textLetr_III{
+    margin-left:60px;
+    margin-top:200px;
+    font-size:30px;
+}
+
+img{
+    width:700px;
+    height:605px;
+    margin-top:66px;
+}
+
+/* STYLE INFORMACAO */
+
+#informacao{
+    color: white;
+    background-color: rgba(48, 48, 48, 1);
+    text-align: center;
+}
+
+h2{
+    padding-top:65px;
+}
+.form{
+    width:308px;
+    height:32px;
+    border-radius:10px;
+    margin-top:23px;
+    border:0px;
+}
+::placeholder{
+    color: rgb(144, 128, 128);
+    padding-left:10px
+}
+#botao{
+    color:white;
+    border-radius:10px;
+    border:0px;
+    width:150px;
+    height:35px;
+    background-color:rgba(192, 114, 18, 1);
+    margin-top:29px;
+    margin-bottom: 55px;
+    cursor:pointer; 
+}
+#botao:hover{
+    transform: scale(1.1);
+    transition-duration:0.5s;
+    
+}

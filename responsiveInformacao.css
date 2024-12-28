@@ -1,0 +1,15 @@
+
+/* RESPONSIVEL INFORMACAO */
+
+@media(min-width:180px) and (max-width:335px){
+    .form{
+        width:208px;
+        height:35px;
+    }
+    ::placeholder{
+        color:black;
+   }
+   
+
+
+}
